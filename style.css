@@ -191,7 +191,7 @@ body {
 
 
         .circle-section {
-          background-color: #000;
+          background-color: #181717;
           height: 40vh;
           display: flex;
           flex-direction: column;
@@ -209,13 +209,18 @@ body {
           min-width: 150px; /* Set a minimum width */
           height: calc(15vw); /* Maintain 2:3 aspect ratio */
           max-height: 30vh; /* Set a maximum height */
-          background:linear-gradient(to bottom right,  #ffffff,#d67712, #862404);
+          background-image: linear-gradient(to bottom right,#c04848, #480048); 
           border-radius: 50%;
+           /* border-style: solid;
+           border-color: #653600;
+           border-width: 2px; */
+           box-shadow:  0px 8px 0px 3px #271f44;
           margin-right: 4vw;
           margin-top: -10vh;
           perspective: 1000px;
           transition: transform 0.8s;
           transform-style: preserve-3d;
+          
       }
       .circle:hover{
         transform: rotatey(180deg);
