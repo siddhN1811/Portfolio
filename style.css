@@ -4,14 +4,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   font-family: "Lato", sans-serif;
 }
 
 /* Navbar styles */
-.navbar {
-  background: linear-gradient(to right, #393e46, #000000);
+/* .navbar {
+  background: linear-gradient(to right,  #ffffff,#eba34c,#da270b,#7707ae, #1c0486);
   color: white;
   padding: 1rem;
   display: flex;
@@ -19,7 +21,22 @@ body {
   align-items: center;
   padding-right: 5rem;
   height: 7vh;
+} */
+.navbar {
+  background: linear-gradient(to right,  #ffffff,#eba34c,#da270b,#7707ae, #1c0486);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5rem;
+  height: 7vh;
+  position: relative; /* Add relative positioning */
+  z-index: 2; /* Ensure navbar is above other content */
 }
+
+/* Hero section styles */
+
 .mobile-menu {
   display: none;
   cursor: pointer;
@@ -116,19 +133,43 @@ body {
 }
 
 /* Hero section styles */
-.hero {
-  background-image: url("../heroImg.png");
-  background-size: cover;
+/* .hero {
+
+  background-image:url("./vivid-blurred-colorful-wallpaper-background.jpg");
+  
+    background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 20px; /* Add horizontal padding to adjust the text width */
+  padding: 0 20px;
 
+} */
+.hero {
+  background-image: url("./vivid-blurred-colorful-wallpaper-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  position: relative; /* Add relative positioning */
+  z-index: 1; /* Ensure hero section is behind navbar */
 }
-
+.text-bg {
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    padding: 20px; /* Add padding to create space between text and background */
+    border-radius: 10px; /* Add rounded corners to the background */
+    position: absolute; /* Position absolutely to cover the hero content */
+    top: 50%; /* Move the background to the vertical center */
+    left: 50%; /* Move the background to the horizontal center */
+    transform: translate(-50%, -50%); /* Center the background */
+    max-width: 80%; / /* Adjust width as needed */
+}
 .hero-content {
+  position: relative;   
   color: white;
  
 }
@@ -144,6 +185,81 @@ body {
   transition: font-size 0.4s ease;
 
 }
+
+
+
+
+
+        .circle-section {
+          background-color: #000;
+          height: 40vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+
+      .circle-container {
+          display: flex;
+          margin-top: 20px;
+      }
+
+      .circle {
+          width: 15vw;
+          min-width: 150px; /* Set a minimum width */
+          height: calc(15vw); /* Maintain 2:3 aspect ratio */
+          max-height: 30vh; /* Set a maximum height */
+          background:linear-gradient(to bottom right,  #ffffff,#d67712, #862404);
+          border-radius: 50%;
+          margin-right: 4vw;
+          margin-top: -10vh;
+          perspective: 1000px;
+          transition: transform 0.8s;
+          transform-style: preserve-3d;
+      }
+      .circle:hover{
+        transform: rotatey(180deg);
+      }
+      .circle-text, .circle-text-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+.circle-text {
+  text-align: center;
+  margin-top: 10vh;
+  color: white;
+  backface-visibility: hidden;
+
+
+}
+.circle-text2 {
+  text-align: center;
+  margin-top: 10vh;
+  color: white;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     .hero p {
         font-size: 20px !important; /* Adjust font size for smaller screens */
@@ -158,7 +274,7 @@ body {
   .nav-list {
     display: none;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0);
     position: absolute;
     top: 60px;
     left: 0;
@@ -180,4 +296,24 @@ body {
   .nav-list li:last-child {
     border-bottom: none; /* Remove border from the last list item */
   }
+  .circle-section {
+    height: 150vh;
+}
+  .circle-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50vh;
+}
+
+.circle {
+  width: 15vw;
+  min-width: 32vw; /* Set a minimum width */
+  height: 30vh; /* Maintain 2:3 aspect ratio */
+  max-height: 30vh; /* Set a maximum height */
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 4vw;
+  margin-top: 2vh;
+}
+
 }
