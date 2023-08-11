@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-/* Navbar styles */
+
 /* .navbar {
   background: linear-gradient(to right,  #ffffff,#eba34c,#da270b,#7707ae, #1c0486);
   color: white;
@@ -31,8 +31,8 @@ body {
   align-items: center;
   padding-right: 5rem;
   height: 7vh;
-  position: relative; /* Add relative positioning */
-  z-index: 2; /* Ensure navbar is above other content */
+  position: relative; 
+  z-index: 2;
   
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .logo img {
-  max-width: 30%; /* Allow the logo to adjust its width */
+  max-width: 30%;
   height: auto;
   margin-top: 0.5rem;
   margin-right: 1rem;
@@ -118,14 +118,14 @@ body {
     border-radius: 30px;
     text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease;
-    box-shadow:1px 2.5px  rgba(255, 255, 255, 0.3); /* Add drop shadow */
+    box-shadow:1px 2.5px  rgba(255, 255, 255, 0.3);
 
 }
 
 .nav-list li a.resume-button:hover {
     background-color: #1E5AA7;
     color: white;
-    box-shadow:1px 2.5px  rgba(255, 255, 255, 0.3); /* Add drop shadow */
+    box-shadow:1px 2.5px  rgba(255, 255, 255, 0.3); 
 
 }
 .nav-list a {
@@ -133,20 +133,9 @@ body {
   color: white;
 }
 
-/* Hero section styles */
-/* .hero {
 
-  background-image:url("./vivid-blurred-colorful-wallpaper-background.jpg");
-  
-    background-size: cover;
-  background-position: center;
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 20px;
 
-} */
+
 .hero {
   background-image: url("./vivid-blurred-colorful-wallpaper-background.jpg");
   background-size: cover;
@@ -156,18 +145,18 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0 20px;
-  position: relative; /* Add relative positioning */
-  z-index: 1; /* Ensure hero section is behind navbar */
+  position: relative; 
+  z-index: 1;
 }
 .text-bg {
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
-    padding: 20px; /* Add padding to create space between text and background */
-    border-radius: 10px; /* Add rounded corners to the background */
-    position: absolute; /* Position absolutely to cover the hero content */
-    top: 50%; /* Move the background to the vertical center */
-    left: 50%; /* Move the background to the horizontal center */
-    transform: translate(-50%, -50%); /* Center the background */
-    max-width: 80%; / /* Adjust width as needed */
+  background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    max-width: 80%; / 
 }
 .hero-content {
   position: relative;   
@@ -182,7 +171,7 @@ body {
 
 .hero p {
   font-size: 24px;
-  margin: 6px 0; /* Add spacing between the lines */
+  margin: 6px 0;
   transition: font-size 0.4s ease;
 
 }
@@ -207,9 +196,9 @@ body {
 
       .circle {
           width: 15vw;
-          min-width: 150px; /* Set a minimum width */
-          height: calc(15vw); /* Maintain 2:3 aspect ratio */
-          max-height: 30vh; /* Set a maximum height */
+          min-width: 150px;
+          height: calc(15vw); 
+          max-height: 30vh; 
           background-image: linear-gradient(to bottom right,#c04848, #480048); 
           border-radius: 50%;
            /* border-style: solid;
@@ -230,7 +219,7 @@ body {
         position: absolute;
         width: 100%;
         height: 100%;
-        -webkit-backface-visibility: hidden; /* Safari */
+        -webkit-backface-visibility: hidden; 
         backface-visibility: hidden;
       }
 .circle-text {
@@ -275,7 +264,7 @@ body {
   height: 40vh;
   border-radius: 50%;
   margin-left: -2vw;
-  min-width: 300px; /* Set a minimum width */
+  min-width: 300px; 
   margin-bottom: 5vh;
 
 }
@@ -314,10 +303,10 @@ body {
 
 @media (max-width: 768px) {
     .hero p {
-        font-size: 20px !important; /* Adjust font size for smaller screens */
+        font-size: 20px !important; 
     }
   .logo img {
-    margin-left: 1rem; /* Adjust the margin for smaller screens */
+    margin-left: 1rem; 
   }
   .mobile-menu {
     display: block;
@@ -331,9 +320,9 @@ body {
     top: 60px;
     left: 0;
     width: 100%;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    border-top: 2px solid white; /* Add border to the top */
+    margin: 0; 
+    padding: 0; 
+    border-top: 2px solid white; /
   }
 
   .nav-list.active {
@@ -341,12 +330,12 @@ body {
   }
 
   .nav-list li {
-    border-bottom: 1px solid white; /* Add border to each list item */
-    padding: 1rem; /* Add padding to each list item */
+    border-bottom: 1px solid white; 
+    padding: 1rem;
   }
 
   .nav-list li:last-child {
-    border-bottom: none; /* Remove border from the last list item */
+    border-bottom: none;
   }
   .circle-section {
     height: 180vh;
@@ -359,9 +348,9 @@ body {
 
 .circle {
   width: 15vw;
-  min-width: 200px; /* Set a minimum width */
-  height: 30vh; /* Maintain 2:3 aspect ratio */
-  max-height: 30vh; /* Set a maximum height */
+  min-width: 200px;
+  height: 30vh;
+  max-height: 30vh; 
   background-color: white;
   border-radius: 50%;
   margin-right: 4vw;
