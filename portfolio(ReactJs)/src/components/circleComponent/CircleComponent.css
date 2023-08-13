@@ -1,0 +1,112 @@
+.circle-section {
+  background-image: linear-gradient(to bottom, #320132, #000000);
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.circle {
+  width: 15vw;
+  min-width: 230px;
+  min-height: 220px;
+  height: calc(15vw);
+  max-height: 30vh;
+  background-image: linear-gradient(to bottom right, #c04848, #480048);
+  border-radius: 50%;
+  /* border-style: solid;
+     border-color: #653600;
+     border-width: 2px; */
+  /* box-shadow:  0px 8px 0px 3px #271f44; */
+  box-shadow: 0px 2px 5px 2px #1b015d;
+  margin: 0px 0px 0px 45px;
+  margin-top: -5vh;
+  perspective: 1000px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.circle:hover {
+  transform: rotatey(180deg);
+}
+.circle-text,
+.circle-text-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.circle-text {
+  /* box-shadow: 0px 0px 3px #00000070, 0px 0px 3px #00000041, 0px 12px 3px #00000013; */
+
+  text-shadow: 2px 2px 1px #015d0a;
+  text-align: center;
+  margin-top: 6vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  /* font-weight: bold; */
+  align-items: center;
+  backface-visibility: hidden;
+}
+.box-shadow {
+  border-radius: 10px;
+  padding: 6px;
+  box-shadow: 4px 4px 3px -3px #61ffda, 3px -2px 3px -3px #61ffda,
+    -2px 0px 3px -3px #61ffda;
+}
+.circle-text img {
+  padding: 0px;
+  border-radius: 30%;
+  box-shadow: 1px 1px 2px 0px #61ffda;
+
+  margin-top: 2vh;
+  width: 90px;
+  min-width: 90px;
+  margin-left: 0;
+  backface-visibility: hidden;
+}
+.circle-text2 {
+  text-align: center;
+  margin-top: 1vh;
+  color: white;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+@media (max-width: 768px) {
+  .circle-section {
+    height: 180vh;
+  }
+  .circle-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50vh;
+  }
+
+  .circle {
+    width: 230px;
+    min-width: 250px;
+    height: 250px;
+    min-height: 250px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 4vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .circle-text {
+    font-size: x-large;
+  }
+  .circle-text img {
+    width: 7vw;
+    min-width: 100px;
+  }
+}

@@ -1,0 +1,149 @@
+.navbar {
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #eba34c,
+    #da270b,
+    #7707ae,
+    #1c0486
+  );
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5rem;
+  height: 7vh;
+  position: relative;
+  z-index: 2;
+}
+
+/* Hero section styles */
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+#mobile-menu {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 2.5rem;
+}
+
+.hamburger {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 0;
+  transition: 0.4s;
+  position: relative;
+}
+
+.hamburger:before,
+.hamburger:after {
+  content: "";
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  transition: 0.4s;
+}
+
+.hamburger:before {
+  top: -8px;
+}
+
+.hamburger:after {
+  top: 8px;
+}
+
+.hamburger.active {
+  transform: rotate(-45deg);
+}
+
+.hamburger.active:before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.hamburger.active:after {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+.logo img {
+  max-width: 30%;
+  height: auto;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 5rem;
+  padding: 0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  margin-right: 1rem;
+}
+.nav-list li a.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00adb5;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 1px 2.5px rgba(255, 255, 255, 0.3);
+}
+
+.nav-list li a.resume-button:hover {
+  background-color: #1e5aa7;
+  color: white;
+  box-shadow: 1px 2.5px rgba(255, 255, 255, 0.3);
+}
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .logo img {
+    margin-left: 1rem;
+  }
+  .mobile-menu {
+    display: block;
+  }
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid white;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .nav-list li {
+    border-bottom: 1px solid white;
+    padding: 1rem;
+  }
+
+  .nav-list li:last-child {
+    border-bottom: none;
+  }
+}
