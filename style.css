@@ -169,17 +169,22 @@ body {
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%);
-    max-width: 80%; / 
+    max-width: 85%; 
+     /* align-items: center; */
+     width: 500px;
 }
 .hero-content {
   position: relative;   
   color: white;
+  margin-left: 5vw;
  
 }
 
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  
+  
 }
 
 .hero p {
@@ -200,6 +205,7 @@ body {
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          
       }
 
       .circle-container {
@@ -221,14 +227,14 @@ body {
            border-width: 2px; */
            /* box-shadow:  0px 8px 0px 3px #271f44; */
            box-shadow:  0px 2px 5px 2px #1b015d;
-          margin-right: 4vw;
+          margin:0px 0px 0px 45px;
           margin-top: -5vh;
           perspective: 1000px;
           transition: transform 0.8s;
           transform-style: preserve-3d;
           
       }
-      .circle:hover{
+      .circle:hover {
         transform: rotatey(180deg);
       }
       .circle-text, .circle-text-back {
@@ -247,8 +253,8 @@ body {
   color: white;
   display: flex;
   flex-direction:column;
-  font-size: 35px;
-  font-weight: bold;
+  font-size: 25px;
+  /* font-weight: bold; */
   align-items: center;
   backface-visibility: hidden;
 
@@ -257,7 +263,7 @@ body {
 .box-shadow{
   border-radius: 10px;
   padding: 6px;
-  box-shadow: 5px 4px 3px -3px #61ffda,-5px -4px 3px -3px #f0a43a;
+  box-shadow: 4px 4px 3px -3px #61ffda,3px -2px 3px -3px #61ffda,-2px 0px 3px -3px #61ffda;
 
 }
 .circle-text img{
@@ -303,11 +309,12 @@ body {
 }
 .my-pic{
   background-image: url("./vivid-blurred-colorful-wallpaper-background.jpg");
-  width: 20vw;
+  width: 10vw;
   height: 40vh;
   border-radius: 50%;
   margin-left: -2vw;
-  min-width: 300px; 
+  min-width: 310px; 
+  min-height: 300px;
   margin-bottom: 5vh;
 
 }
@@ -375,7 +382,7 @@ body {
   overflow-wrap: break-word !important;
   margin: 1rem;
   margin-bottom: 20px;
-  border-radius: 6px;
+  border-radius: 6px ;
 }
 
 
@@ -433,14 +440,17 @@ body {
   }
   .t1{
     animation-delay: 100ms;
+    border-radius: 0px 40px 40px 0px;
   }
   
   .t2 {
     animation-delay: 500ms;
+    border-radius: 40px 0px 0px 40px;
   }
   
   .t3 {
     animation-delay: 1000ms;
+    border-radius: 0px 40px 40px 0px;
   }
   
 }
@@ -451,6 +461,11 @@ body {
 
 
 @media (max-width: 768px) {
+
+  .text-bg {
+
+width: 50%;
+}
     .hero p {
         font-size: 20px !important; 
     }
@@ -496,10 +511,10 @@ body {
 }
 
 .circle {
-  width: 15vw;
-  min-width: 230px;
-  height: 35vh;
-  max-height: 30vh; 
+  width: 230px;
+  min-width:250px;
+  height: 250px;
+  min-height: 250px;
   background-color: white;
   border-radius: 50%;
   margin-right: 4vw;
@@ -521,9 +536,11 @@ body {
   align-items: center;
 }
 .my-pic{
-  width: 5vw;
-  min-width: 230px;
-  height: 30vh;
+  width: 230px;
+  min-width:250px;
+  height: 230px;
+  min-height: 200px;
+  margin-right: -5vw;
 }
 
 .about-me-text{
