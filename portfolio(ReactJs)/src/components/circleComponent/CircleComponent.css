@@ -18,21 +18,24 @@
   min-height: 220px;
   height: calc(15vw);
   max-height: 30vh;
-  background-image: linear-gradient(to bottom right, #c04848, #480048);
   border-radius: 50%;
-  /* border-style: solid;
-     border-color: #653600;
-     border-width: 2px; */
-  /* box-shadow:  0px 8px 0px 3px #271f44; */
-  box-shadow: 0px 2px 5px 2px #1b015d;
+  
+ 
+-webkit-backdrop-filter: blur(3.1px);
+
+  
+  box-shadow:inset 0px 4px 8px 0px #000000;
   margin: 0px 0px 0px 45px;
   margin-top: -5vh;
   perspective: 1000px;
-  transition: transform 0.8s;
+  transition: transform 1s;
   transform-style: preserve-3d;
+  
 }
 .circle:hover {
   transform: rotatey(180deg);
+  box-shadow:  0px -4px 2px 1px #000000;
+
 }
 .circle-text,
 .circle-text-back {
@@ -59,8 +62,7 @@
 .box-shadow {
   border-radius: 10px;
   padding: 6px;
-  box-shadow: 4px 4px 3px -3px #61ffda, 3px -2px 3px -3px #61ffda,
-    -2px 0px 3px -3px #61ffda;
+  box-shadow: 4px 4px 3px -3px #61ffda, 4px 1px 3px -3px #61ffda,-4px -1px 3px -3px #000000;
 }
 .circle-text img {
   padding: 0px;
@@ -96,7 +98,7 @@
     min-width: 250px;
     height: 250px;
     min-height: 250px;
-    background-color: white;
+    /* background-color: white */
     border-radius: 50%;
     margin-right: 4vw;
     margin-top: 5vh;

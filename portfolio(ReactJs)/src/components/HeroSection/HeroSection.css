@@ -11,7 +11,13 @@
   z-index: 1;
 }
 .text-bg {
-  background-color: rgba(0, 0, 0, 0.5);
+  /* From https://css.glass */
+background: rgba(5, 5, 5, 0.5);
+backdrop-filter: blur(3.1px);
+-webkit-backdrop-filter: blur(10.1px);
+
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  box-shadow: 2px 2px 5px 0px #000000;
   padding: 20px;
   border-radius: 10px;
   position: absolute;
