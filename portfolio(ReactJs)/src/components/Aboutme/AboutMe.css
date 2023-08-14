@@ -35,7 +35,8 @@
     color: #FFCC66;
   }
   .about-me-text h1{
-    
+    text-shadow: 2px 1px 1px #000000,2px 1px 2px  #6cdbd0;
+
     font-weight:bolder;
     color: aliceblue;
     

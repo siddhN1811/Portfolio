@@ -31,12 +31,13 @@ backdrop-filter: blur(3.1px);
 .hero-content {
   position: relative;
   color: white;
-  margin-left: 5vw;
+  margin-left: 4.5vw;
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 24px;
   margin-bottom: 1rem;
+
 }
 
 .hero p {

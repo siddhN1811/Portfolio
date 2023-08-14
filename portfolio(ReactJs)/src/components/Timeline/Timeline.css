@@ -107,15 +107,15 @@ body {
       animation: float 3s ease-in-out infinite;
     }
     .t1:hover{
-      box-shadow:-3px 3px 6px 2px #b5a6a4 !important;
+      box-shadow:-3px 3px 3px 3px #6cdbd0 !important;
     
     }
     .t2:hover{
-      box-shadow:3px 3px 6px 2px #b5a6a4 !important;
+      box-shadow:3px 3px 3px 3px #6cdbd0 !important;
     
     }
     .t3:hover{
-      box-shadow:-3px 3px 6px 2px #b5a6a4 !important;
+      box-shadow:-3px 3px 3px 3px #6cdbd0 !important;
     
     }
     .t1{
