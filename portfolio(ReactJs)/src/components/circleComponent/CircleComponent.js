@@ -4,7 +4,7 @@ import githubLogo from "../images/githubLogo.png";
 import shareLogo from "../images/shareLogo.png";
 const CircleComponent = () => {
   return (
-    <section className="circle-section">
+    <section id="circle-section" className="circle-section">
       <div className="circle-container">
         <div className="circle">
           <div className="circle-text">

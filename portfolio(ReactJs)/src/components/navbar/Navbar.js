@@ -33,19 +33,19 @@ const Navbar = () => {
           >
             
           </Link> */}
-          <a href="#about-me-section">About me</a>
+          <a href="#circle-section">About me</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#">Skills</a>
-        </li>
+        </li> */}
         <li>
           <a href="#design-section">Projects</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#">Contact</a>
-        </li>
+        </li> */}
         <li>
-          <a href="#" className="resume-button">
+          <a href="https://drive.google.com/file/d/1O5V4_sjfQkOaxcnuwioBfWpklhccLSiE/view?usp=sharing" className="resume-button" target="_blank" rel="noreferrer">
             Resume
           </a>
         </li>
