@@ -77,13 +77,23 @@ align-items: center;
   backface-visibility: hidden;
 }
 .circle-text2 {
+  padding: 5px;
+  /* box-shadow: 4px 4px 3px -3px #61ffda, 4px 1px 3px -3px #61ffda,-4px -1px 3px -3px #000000; */
   text-align: center;
-  margin-top: 1vh;
+  margin-top: 40%;
   color: white;
   transform: rotateY(180deg);
   backface-visibility: hidden;
+  text-decoration: n;
 }
-
+.circle-text2 a{
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 8px;
+  box-shadow: 4px 4px 3px -3px #61ffda, 4px 1px 3px -3px #61ffda,-4px -1px 3px -3px #000000;
+  font-size: x-large;
+  color: white;
+}
 @media (max-width: 768px) {
   .circle-section {
     height: 900px;

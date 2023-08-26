@@ -3,7 +3,7 @@ import "./Timeline.css"; // Import your CSS file
 
 const Timeline = () => {
   return (
-    <section className="design-section">
+    <section id="design-section" className="design-section">
       <div className="timeline">
         <div className="timeline-empty"></div>
 
@@ -13,25 +13,17 @@ const Timeline = () => {
         <div className="timeline-component timeline-content t1">
           <h3>FLMS</h3>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
+          FLMS stands for Flood Location management and solution
+           and it's a proof of concept project to make better alerting 
+           systems for areas affected by floods repeatedly. It uses GIS, HTML, CSS, Django Python and Machine Learning.
+           <a href="https://github.com/siddhN1811/FLMS"  target="_blank" rel="noreferrer" >&nbsp;  Link to the Repository</a>
           </p>
         </div>
         <div className="timeline-component timeline-content t2">
           <h3>EDT</h3>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
+            Expiry Date Tracker, for tracking expiry date of food products in order to reduce wastage. Uses Android studio, Java.
+            <a href="https://github.com/siddhN1811/Expiry_date_tracker"  target="_blank" rel="noreferrer" >&nbsp; Link to the Repository</a>
           </p>
         </div>
         <div className="timeline-middle">
@@ -47,13 +39,9 @@ const Timeline = () => {
         <div className="timeline-component timeline-content t3">
           <h3>Dawn Of Survival</h3>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
+          An 3D Escape the island mobile game made using Unreal Engine 4 and uploaded on itch.io.
+          <a href="https://gitlab.com/siddhN1811/teknack"  target="_blank" rel="noreferrer" >&nbsp; Link to the Repository</a>
+
           </p>
         </div>
       </div>

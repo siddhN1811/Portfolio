@@ -76,6 +76,11 @@ body {
   .timeline-content{
     animation:none ;
   }
+  .timeline-component a{
+    color: rgb(118, 215, 230)  ;
+    text-decoration: none;
+
+  }
   
   
   @media screen and (min-width: 768px) {
