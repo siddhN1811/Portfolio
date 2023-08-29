@@ -1,6 +1,7 @@
 .hero {
   background-image: url("../images/heroImg.jpg");
   background-size: cover;
+  background-color: #280d81;
   background-position: center;
   height: 60vh;
   display: flex;
