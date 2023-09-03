@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection/HeroSection';
 import CircleComponent from './components/circleComponent/CircleComponent';
 import AboutMeSection from './components/Aboutme/AboutMe';
 import Timeline from './components/Timeline/Timeline';
+import DesignPortfolio from './components/designPorfolioSection/DesignPortfolio';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <CircleComponent></CircleComponent>
       <AboutMeSection></AboutMeSection>
       <Timeline></Timeline>
+      <DesignPortfolio></DesignPortfolio>
     </div>
   );
 }
