@@ -4,7 +4,10 @@ import "./Timeline.css"; // Import your CSS file
 const Timeline = () => {
   return (
     <section id="design-section" className="design-section">
+            <h2>Projects</h2>
+
       <div className="timeline">
+        
         <div className="timeline-empty"></div>
 
         <div className="timeline-middle">
