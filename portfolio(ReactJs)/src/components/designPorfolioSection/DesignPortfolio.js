@@ -21,61 +21,61 @@ const DesignPortfolio = () => {
     {
       id: 1,
       imageUrl: "/pubImages/HMAC1.jpg",
-      description: "Description of Image 1",
+      description: "HMAC UI for Sem 7 Major Project",
       tags: ["figma"],
     },
     {
       id: 2,
       imageUrl: "/pubImages/HMAC2.jpg",
-      description: "Description of Image 2",
+      description: "HMAC UI for Sem 7 Major Project",
       tags: ["figma"],
     },
     {
       id: 3,
       imageUrl: "/pubImages/FLMS1.jpg",
-      description: "Description of Image 3",
+      description: "FLMS UI for 3rd year Project",
       tags: ["figma"],
     },
     {
       id: 4,
       imageUrl: "/pubImages/FLMS2.jpg",
-      description: "Description of Image 4",
+      description: "FLMS UI for 3rd year Project",
       tags: ["figma"],
     },
     {
       id: 5,
       imageUrl: "/pubImages/FLMS3.jpg",
-      description: "Description of Image 5",
+      description: "FLMS UI for 3rd year Project",
       tags: ["figma"],
     },
     {
       id: 6,
       imageUrl: "/pubImages/assignment.png",
-      description: "Description of Image 6",
+      description: "Mock Poster for ACM member selection",
       tags: ["adobeps"],
     },
     {
       id: 7,
       imageUrl: "/pubImages/cosmos.png",
-      description: "Description of Image 7",
+      description: "Global Warming Message",
       tags: ["adobeps"],
     },
     {
       id: 8,
       imageUrl: "/pubImages/posterCompPoster.jpg",
-      description: "Description of Image 8",
+      description: "Poster for ACM competion",
       tags: ["adobeps"],
     },
     {
       id: 9,
       imageUrl: "/pubImages/siddhanth_posterForGame.png",
-      description: "Description of Image 9",
+      description: "Poster Submitted for Design competion ACM DBIT ",
       tags: ["adobeps"],
     },
     {
       id: 10,
       imageUrl: "/pubImages/UEworkshop.png",
-      description: "Description of Image 10",
+      description: "UE4 Workshop Poster for ACM DBIT",
       tags: ["adobeps"],
     },
   ];
@@ -89,7 +89,7 @@ const DesignPortfolio = () => {
   };
 
   return (
-    <section className="design-portfolio">
+    <section id="design-Porfolio"className="design-portfolio">
       <h2>Design Portfolio</h2>
       <div className="filter-buttons">
         <button

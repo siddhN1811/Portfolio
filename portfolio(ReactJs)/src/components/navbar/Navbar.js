@@ -41,6 +41,9 @@ const Navbar = () => {
         <li>
           <a href="#design-section">Projects</a>
         </li>
+        <li>
+          <a href="#design-Porfolio">Design Portfolio</a>
+        </li>
         {/* <li>
           <a href="#">Contact</a>
         </li> */}
