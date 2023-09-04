@@ -1,12 +1,12 @@
 import React from "react";
 import "./AboutMe.css"; // Import your CSS file
 // import myPic from "../images/myPic.jpg"; // Import your image
-
 const AboutMeSection = () => {
   return (
     <section id = "about-me-section" className="about-me-section">
       <div className="about-me-container">
-        <div className="my-pic"></div>
+        <div className="my-pic">
+                 </div>
         <div className="about-me-text">
           <h1>Hi, I am Siddhanth Naidu.</h1>
           <p>

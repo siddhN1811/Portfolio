@@ -4,8 +4,8 @@ import "./Timeline.css"; // Import your CSS file
 const Timeline = () => {
   return (
     <section id="design-section" className="design-section">
-            <h2>Projects</h2>
-
+            <h2>My Projects</h2>
+      
       <div className="timeline">
         
         <div className="timeline-empty"></div>
@@ -47,6 +47,24 @@ const Timeline = () => {
 
           </p>
         </div>
+        {/* <div className="timeline-component timeline-content t2">
+          <h3>Dawn Of Survival</h3>
+          <p>
+          An 3D Escape the island mobile game made using Unreal Engine 4 and uploaded on itch.io.
+          <a href="https://gitlab.com/siddhN1811/teknack"  target="_blank" rel="noreferrer" >&nbsp; Link to the Repository</a>
+
+          </p>
+          
+        </div>
+        <div className="timeline-middle">
+          <div className="timeline-circle"></div>
+        </div>
+        <div className="timeline-empty"></div>
+
+        <div className="timeline-empty"></div> */}
+
+    
+        
       </div>
     </section>
   );

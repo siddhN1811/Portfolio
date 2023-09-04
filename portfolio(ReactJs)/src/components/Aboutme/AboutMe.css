@@ -17,12 +17,15 @@
     
   }
   .my-pic{
+    background-image: url("../images/pic.jpg");
+    background-size: 80%;
+    background-position: 35px;
     background-color: aliceblue;
     width: 100px;
     height: 200px;
     border-radius: 50%;
     margin-left: -2vw;
-    min-width: 310px; 
+    min-width: 300px; 
     min-height: 300px;
     margin-bottom: 10px;
   
@@ -53,11 +56,6 @@
   }
 
 
-
-
-
-
-
 @media (max-width: 768px) {
   .about-me-section{
    display: flex;
@@ -79,15 +77,17 @@
     width: 230px;
     min-width: 250px;
     height: 230px;
-    min-height: 200px;
+    min-height: 250px;
     margin-top: 0px;
     margin-bottom: 90px;
     margin-left: 0px;
     margin-right: 0px;
+    background-position: 25px;
   }
 
   .about-me-text {
-    width: 70vw;
+
+    width: 80vw;
   }
   .about-me-text h1 {
     margin-left: 10vw;

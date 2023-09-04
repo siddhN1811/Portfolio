@@ -9,3 +9,7 @@
     font-family: "Lato", sans-serif;
   }
   /* eeeee */
+  ::selection {
+    background-color: #3f0c5d;
+    color: #ffffff;
+  }

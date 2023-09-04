@@ -26,7 +26,11 @@ body {
     min-height: 70vh;
     padding: 100px 0;
   }
-  
+  .design-section h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: xx-large;
+  }
   .design {
     display: flex;
     align-items: center;
