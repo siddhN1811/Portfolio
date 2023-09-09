@@ -15,8 +15,17 @@ const Timeline = () => {
         <div className="timeline-component timeline-content t1">
           <h3>Yu-Gi-Oh essentials</h3>
           <p>
-            Yu-Gi-Oh essentials is a website made using react which has usefull
-            ulitites for playing the card game Yu-Gi-Oh. It uses the{" "}
+            Yu-Gi-Oh essentials is a{" "}
+            <a
+              href="https://yugioh-essentials.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              website{" "}
+            </a>{" "}
+            made using react which has usefull ulitites for playing the card
+            game Yu-Gi-Oh. It uses the{" "}
             <a
               href="https://ygoprodeck.com/api-guide/"
               target="_blank"
