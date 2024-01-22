@@ -20,6 +20,12 @@ const DesignPortfolio = () => {
   const portfolioItems = [
     {
       id: 1,
+      imageUrl: "/pubImages/frieren.png",
+      description: "HMAC UI for Sem 7 Major Project",
+      tags: ["adobeps"],
+    },
+    {
+      id: 2,
       imageUrl: "/pubImages/HMAC1.jpg",
       description: "HMAC UI for Sem 7 Major Project",
       tags: ["figma"],
