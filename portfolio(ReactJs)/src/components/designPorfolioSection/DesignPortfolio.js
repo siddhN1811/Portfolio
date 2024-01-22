@@ -21,7 +21,7 @@ const DesignPortfolio = () => {
     {
       id: 1,
       imageUrl: "/pubImages/frieren.png",
-      description: "HMAC UI for Sem 7 Major Project",
+      description: "Fanart",
       tags: ["adobeps"],
     },
     {
