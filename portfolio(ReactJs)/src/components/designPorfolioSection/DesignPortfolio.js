@@ -21,7 +21,7 @@ const DesignPortfolio = () => {
     {
       id: 1,
       imageUrl: "/pubImages/bojji.png",
-      description: "Fanart (credits - ousama ranking)",
+      description: "Fanart - (credits - ousama ranking)",
       tags: ["adobeps"],
     },
     {
