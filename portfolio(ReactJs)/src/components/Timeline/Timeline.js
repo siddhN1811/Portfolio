@@ -5,8 +5,27 @@ const Timeline = () => {
   return (
     <section id="design-section" className="design-section">
       <h2>My Projects</h2>
-
       <div className="timeline">
+        <div className="timeline-component timeline-content t2">
+          <h3>Handwriting Match And AI Content Detection (HMAC)</h3>
+          <p>
+            A system made to detect AI generated text from sumbitted
+            assignments (Handwritten/Typed); increasing academic integrity. Futhermore, it can also
+            be used to check duplicate assignemnts.{"  "}
+            <a
+              href="https://github.com/siddhN1811/HMAC"
+              target="_blank"
+              rel="noreferrer"
+            >
+              &nbsp; Link to the Repository
+            </a>
+          </p>
+        </div>
+        <div className="timeline-middle">
+          <div className="timeline-circle"></div>
+        </div>
+        <div className="timeline-empty"></div>
+
         <div className="timeline-empty"></div>
 
         <div className="timeline-middle">
@@ -85,7 +104,7 @@ const Timeline = () => {
           </p>
         </div>
 
-        <div className="timeline-component timeline-content t2">
+        {/* <div className="timeline-component timeline-content t2">
           <h3>EDT</h3>
           <p>
             Expiry Date Tracker, for tracking expiry date of food products in
@@ -102,13 +121,13 @@ const Timeline = () => {
         <div className="timeline-middle">
           <div className="timeline-circle"></div>
         </div>
-        <div className="timeline-empty"></div>
-
+        <div className="timeline-empty"></div> */}
+{/* 
         <div className="timeline-empty"></div>
         <div className="timeline-middle">
           <div className="timeline-circle"></div>
-        </div>
-        <div className="timeline-component timeline-content t3">
+        </div> */}
+        <div className="timeline-component timeline-content t2">
           <h3>Dawn Of Survival</h3>
           <p>
             An 3D Escape the island mobile game made using Unreal Engine 4 and
@@ -122,6 +141,10 @@ const Timeline = () => {
             </a>
           </p>
         </div>
+        <div className="timeline-middle">
+          <div className="timeline-circle"></div>
+        </div>
+        <div className="timeline-empty"></div>
       </div>
     </section>
   );
